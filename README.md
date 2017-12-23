@@ -20,5 +20,10 @@ Flexi-FizzBuzzBazz is a Web Forms app written in C# using Visual Studio 2015 and
 * asp:**_CompareValidator_** and asp:**_RequiredFieldValidator_** for user input validation
 * C# Interface
 
+### References for publishing to Microsoft Azure
+* https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-dotnet-get-started
+* https://docs.microsoft.com/en-us/aspnet/core/publishing/azure-continuous-deployment
+* https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-deploy
+
 ### Sample screenshot
 ![flex-fizzbuzzbazz screenshot](https://user-images.githubusercontent.com/19395671/34316956-fe754906-e757-11e7-8939-60a6c41ab389.png)
