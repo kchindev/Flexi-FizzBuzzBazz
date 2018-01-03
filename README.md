@@ -24,6 +24,8 @@ Flexi-FizzBuzzBazz is a Web Forms app written in C# using Visual Studio 2015 and
 - Default.aspx
   - User input validation using **_RequiredFieldValidator_**, **_CompareValidator_**, **_RequiredFieldValidator_**
   - Javascript function **_OnRunButtonPressed()_** for handling button press
+- Default.aspx.cs
+  - Illustrates the use of C# **_Predicate_** and **_lambda expression_**.  Given a selected “Bazz” option, the **_Predicate_** returns a **_True_** or **_False_** value depending on the outcome of the associated **_lambda expression_**, for instance ```x => x < bazzValue``` will result in **_True_** when ```x``` is less than the given value of _Bazz_.  For example, if ```x``` is 4 and _Bazz_ value is 6, then we’d expect a **_True_**, whereas if ```x``` is 10 while _Bazz_ is 6, then the result is **_False_**.
 - GoFizzBuzz.cs
   - C# Interface usage **_IFizzBuzzBazz_**
   - **_FizzBuzzBazz_** logic implementation
